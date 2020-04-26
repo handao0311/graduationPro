@@ -1,0 +1,71 @@
+<div id="right_body_header">
+
+
+    <div id = "year">
+        <!--<span>学年 :  </span>-->
+
+        <!--<select>-->
+            <!--<option value="2016">请选择学年</option>-->
+            <!--<option value="2016">2016</option>-->
+            <!--<option value="2017">2017</option>-->
+        <!--</select>-->
+
+        <label for="yearCategory" class="col-md-3 control-label">学年 </label>
+        <div class="col-md-8">
+            <select id="yearCategory" name="roleId" class="form-control">
+                <option>请选择学年</option>
+                <option>2016</option>
+                <option>2017</option>
+            </select>
+        </div>
+
+    </div>
+
+    <div id="team">
+        <!--<span>学期 :  </span>-->
+
+        <!--<select>-->
+            <!--<option value="team">请选择学期</option>-->
+            <!--<option value="lastSemester">lastSemester</option>-->
+            <!--<option value="nextSemester">nextSemester</option>-->
+        <!--</select>-->
+
+        <label for="teamCategory" class="col-md-3 control-label">学期 </label>
+        <div class="col-md-8">
+            <select id="teamCategory" name="roleId" class="form-control">
+                <option>请选择学期</option>
+                <option>last</option>
+                <option>next</option>
+            </select>
+        </div>
+    </div>
+
+    <button type="button" class="btn btn-success" id="determine"> Query </button>
+
+    <hr>
+
+    <hr id="hr_tail">
+
+</div>
+
+
+<div id="right_body_tail">
+
+    <table class="table table-striped" id="scoreTable">
+        <!--<thead>-->
+            <!--<tr>-->
+                <!--<th>姓名</th>-->
+                <!--<th>学年</th>-->
+                <!--<th>学期</th>-->
+                <!--<th>课程名</th>-->
+                <!--<th>课程编号</th>-->
+                <!--<th>类型</th>-->
+                <!--<th>学分</th>-->
+                <!--<th>成绩</th>-->
+            <!--</tr>-->
+        <!--</thead>-->
+    </table>
+
+    <button type="button" class="btn btn-success" id="downloadPDF">下载成绩(pdf)</button>
+
+</div>

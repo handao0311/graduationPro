@@ -1,0 +1,30 @@
+#studentPF_left{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    width:600px;
+    height: 600px;
+
+}
+
+#studentPF_right{
+    position: absolute;
+    left: 610px;
+    top: 10px;
+    width:600px;
+    height: 600px;
+}
+
+#studentImage{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+
+}
+
+#myform{
+    position: absolute;
+    left: 220px;
+    top: 400px;
+
+}

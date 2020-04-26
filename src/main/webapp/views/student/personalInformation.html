@@ -1,0 +1,104 @@
+<div id="studentPF_left">
+
+    <table class="table" id = "personalInformationTable">
+        <tr>
+            <td>姓名 :</td>
+            <td>韩潮</td>
+        </tr>
+
+        <tr>
+            <td>昵称 :</td>
+            <td>hctrl</td>
+        </tr>
+
+        <tr>
+            <td>性别 :</td>
+            <td>男</td>
+        </tr>
+
+        <tr>
+            <td>学号 :</td>
+            <td>1616020230</td>
+        </tr>
+
+        <tr>
+            <td>班级 :</td>
+            <td>软件1602</td>
+        </tr>
+
+        <tr>
+            <td>QQ :</td>
+            <td>1428090104</td>
+        </tr>
+
+        <tr>
+            <td>出生日期 :</td>
+            <td>1998-03-11</td>
+        </tr>
+
+        <tr>
+            <td>入学时间 :</td>
+            <td>2016</td>
+        </tr>
+
+        <tr>
+            <td>座右铭 :</td>
+            <td>世上无难事,只怕有心人</td>
+        </tr>
+
+    </table>
+
+    <button type="button" id = "changeInfo" class="btn btn-info" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">编辑资料</button>
+
+</div>
+
+
+<div id = "studentPF_right">
+
+    <img id = "studentImage" style="width: 400px; height: 200px" src="./static/image/default.jpg">
+
+    <form class="form-inline" id = "myform" method="post" enctype="multipart/form-data">
+        <input type="file" name="files" value="更改图片">
+        <input id = "loadFile" type="submit" value = "确定"/>
+    </form>
+
+</div>
+
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title" id="myModalLabel">资料编辑</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table" id = "modalPersonalInformationTable">
+
+                    <tr>
+                        <td>昵称 :</td>
+                        <td><input type="text" id = "modalNikeName"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>QQ :</td>
+                        <td><input type="text" id = "modalQQ"></td>
+                    </tr>
+
+
+                    <tr>
+                        <td>座右铭 :</td>
+                        <td><input type="text" id = "modalMotto"></td>
+                    </tr>
+
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-primary" id="modal_confirm">Save changes</button>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,39 @@
+#right_body_header{
+
+    position: relative;
+    width: auto;
+    height: 80px;
+}
+
+#year{
+    position: absolute;
+
+    top : 20px;
+
+    left: 100px;
+
+}
+
+#team{
+    position: absolute;
+
+    top : 20px;
+
+    left: 400px;
+
+}
+
+#determine{
+    position: absolute;
+
+    top : 20px;
+
+    right: 100px;
+}
+
+/*#hr_tail{*/
+
+    /*position: absolute;*/
+    /*top: 10px;*/
+/*}*/
+
