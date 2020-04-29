@@ -257,11 +257,19 @@ public class StudentController {
 
 
     @GetMapping("mailList")
-    public ResultVo getMailList(){
-
+    public ResultVo getMailList(@RequestParam(value = "name") String name,@RequestParam(value = "grade") String grade){
+        System.out.println(name + grade);
         ResultVo resultVo = new ResultVo();
 
-        Page<StudentPersonalInformation> mailList = studentService.getMailList();
+        if ("name".equals(name)){
+            name = "";
+        }
+
+        if ("grade".equals(grade)){
+            grade = "";
+        }
+
+        Page<StudentPersonalInformation> mailList = studentService.getMailList(name,grade);
 
         if (mailList != null){
 
@@ -278,11 +286,20 @@ public class StudentController {
     }
 
     @GetMapping("mailListPage")
-    public ResultVo getMailListPage(@RequestParam(value = "currentPage") String currentPage){
+    public ResultVo getMailListPage(@RequestParam(value = "currentPage") String currentPage,@RequestParam(value = "name") String name,@RequestParam(value = "grade") String grade){
 
         ResultVo resultVo = new ResultVo();
 
-        Page<StudentPersonalInformation> mailListPage = studentService.getMailListPage(Integer.valueOf(currentPage));
+
+        if ("name".equals(name)){
+            name = "";
+        }
+
+        if ("grade".equals(grade)){
+            grade = "";
+        }
+
+        Page<StudentPersonalInformation> mailListPage = studentService.getMailListPage(Integer.valueOf(currentPage),name,grade);
 
         if (mailListPage.getTotalCount() != 0){
             resultVo.setStatus(1);

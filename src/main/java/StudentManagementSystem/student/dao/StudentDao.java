@@ -14,6 +14,7 @@ import org.springframework.stereotype.Repository;
 import javax.annotation.Resource;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 /**
  * @author hctrl
@@ -87,19 +88,38 @@ public class StudentDao {
         return studentTeachingEvals;
     }
 
-    public List<StudentPersonalInformation> getMailList(){
+    public List<StudentPersonalInformation> getMailList(String name,String grade){
 
-        List<StudentPersonalInformation> studentPersonalInformationTable = mongoTemplate.findAll(StudentPersonalInformation.class, "studentPersonalInformationTable");
+        Pattern pattern =Pattern.compile("^.*" + name + ".*$",Pattern.CASE_INSENSITIVE);
+        Pattern pattern1 =Pattern.compile("^.*" + grade + ".*$",Pattern.CASE_INSENSITIVE);
+        System.out.println(pattern.toString());
+        System.out.println(pattern1.toString());
+        Query query = new Query(Criteria.where("name").is(pattern).and("grade").is(pattern1));
 
+        List<StudentPersonalInformation> studentPersonalInformationTable = mongoTemplate.find(query,StudentPersonalInformation.class,"studentPersonalInformationTable");
+
+//        List<StudentPersonalInformation> studentPersonalInformationTable = mongoTemplate.findAll(StudentPersonalInformation.class, "studentPersonalInformationTable");
+
+        for (StudentPersonalInformation studentPersonalInformation : studentPersonalInformationTable){
+            System.out.println(studentPersonalInformation);
+
+        }
+
+        System.out.println("111111111111111111111111111111111111111111111111111111111111");
         return studentPersonalInformationTable;
     }
 
-    public List<StudentPersonalInformation> getMailListPage(Page page){
+    public List<StudentPersonalInformation> getMailListPage(Page page,String name,String grade){
 
         Query query = new Query();
 
         query.skip((page.getCurrentPage() - 1) * page.getPageSize());
         query.limit(page.getPageSize());
+
+        Pattern pattern =Pattern.compile("^.*" + name + ".*$",Pattern.CASE_INSENSITIVE);
+        Pattern pattern1 =Pattern.compile("^.*" + grade + ".*$",Pattern.CASE_INSENSITIVE);
+
+        query.addCriteria(Criteria.where("name").is(pattern).and("grade").is(pattern1));
 
         List<StudentPersonalInformation> studentPersonalInformationTable = mongoTemplate.find(query, StudentPersonalInformation.class, "studentPersonalInformationTable");
 

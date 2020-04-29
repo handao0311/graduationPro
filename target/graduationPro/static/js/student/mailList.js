@@ -3,32 +3,83 @@ $(function () {
     //初始化加载学生通讯录
     load_studentMailList();
 
+    //模糊查询
+
+    $("#mailList_head_div_name").submit(function () {
+        submit_query();
+    });
 
 });
 
+function submit_query() {
+
+    load_studentMailList();
+
+}
+
+
 function load_studentMailList() {
 
+    var mailList_head_name_value = $("#mailList_head_name").val();
+    var mailList_head_class_value = $("#mailList_head_class").val();
+
+    if (mailList_head_name_value == ""){
+
+        mailList_head_name_value = "name";
+    }
+
+    if (mailList_head_class_value == ""){
+
+        mailList_head_class_value = "grade";
+    }
+
+
+    alert(mailList_head_name_value + "   " + mailList_head_class_value);
 
     $.ajax({
 
         url : "/graduationPro/api/mailList/",
         type : "get",
+        data : {
+            "name" : mailList_head_name_value,
+            "grade" : mailList_head_class_value
+        },
         dataType : "json",
         success : function (result) {
-            // alert(result.status);
+            // alert("请求成功");
             var page = result.data;
             info = page.data;
-            for(var i=0 ; i < page.pageSize ; i++){
 
-                var tr = "<tr>" +
-                            "<td>"+ info[i].name +"</td>" +
-                            "<td>" + info[i].nikeName + "</td>" +
-                            "<td>" + info[i].studentID + "</td>" +
-                            "<td>" + info[i].qq + "</td>" +
-                            "<td>" + info[i].motto + "</td>" +
+            load_table();
+            if (page.totalCount >= 3) {
+
+                for(var i=0 ; i < page.pageSize ; i++){
+                    var tr = "<tr>" +
+                        "<td>"+ info[i].name +"</td>" +
+                        "<td>" + info[i].nikeName + "</td>" +
+                        "<td>" + info[i].studentID + "</td>" +
+                        "<td>" + info[i].qq + "</td>" +
+                        "<td>" + info[i].motto + "</td>" +
                         "</tr>"
 
-                $("#mailList_table").append(tr);
+                    $("#mailList_table").append(tr);
+
+                }
+            }else {
+
+                for(var i=0 ; i < page.totalCount ; i++){
+                    var tr = "<tr>" +
+                        "<td>"+ info[i].name +"</td>" +
+                        "<td>" + info[i].nikeName + "</td>" +
+                        "<td>" + info[i].studentID + "</td>" +
+                        "<td>" + info[i].qq + "</td>" +
+                        "<td>" + info[i].motto + "</td>" +
+                        "</tr>"
+
+                    $("#mailList_table").append(tr);
+
+                }
+
             }
 
             $(".M-box").pagination({
@@ -40,31 +91,20 @@ function load_studentMailList() {
                 nextContent: "下页",
                 current: 1,
                 callback : function (api) {
-                    // alert(api.getCurrent())
+
                     $.ajax({
 
                         url: "/graduationPro/api/mailListPage",
                         type: "get",
                         data : {
-                            currentPage : api.getCurrent()
+                            currentPage : api.getCurrent(),
+                            "name" : mailList_head_name_value,
+                            "grade" : mailList_head_class_value
                         },
                         dataType: "json",
                         success : function (res) {
-                            // alert("内部请求成功");
-
-                            $("#mailList_table").html("");
-
-                            var thead = "<thead>" +
-                                            "<tr>" +
-                                                "<th>姓名</th>" +
-                                                "<th>昵称</th>" +
-                                                "<th>学号</th>" +
-                                                "<th>QQ</th>" +
-                                                "<th>座右铭</th>" +
-                                            "</tr>" +
-                                        "</thead>"
-
-                            $("#mailList_table").append(thead);
+                            alert("内部请求成功");
+                            load_table();
                             var page1 = res.data;
                             var tel = page1.data;
                             $(tel).each(function (index,obj) {
@@ -78,29 +118,39 @@ function load_studentMailList() {
                                     "</tr>"
 
                                 $("#mailList_table").append(tr1);
-                            })
-
+                            });
 
                         },
                         error : function () {
                             alert("内部请求失败");
                         }
 
-
                     });
                 }
             });
-
-
-
-
-
-            // alert("请求成功");
         } ,
         error: function () {
             alert("请求失败");
         }
 
     });
+    return false;
+}
+
+function load_table() {
+
+    $("#mailList_table").html("");
+
+    var thead = "<thead>" +
+        "<tr>" +
+        "<th>姓名</th>" +
+        "<th>昵称</th>" +
+        "<th>学号</th>" +
+        "<th>QQ</th>" +
+        "<th>座右铭</th>" +
+        "</tr>" +
+        "</thead>"
+
+    $("#mailList_table").append(thead);
 
 }

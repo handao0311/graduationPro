@@ -63,11 +63,11 @@ public class StudentService {
 
     }
 
-    public Page<StudentPersonalInformation> getMailList(){
+    public Page<StudentPersonalInformation> getMailList(String name,String grade){
 
         Page<StudentPersonalInformation> page = new Page<>();
 
-        List<StudentPersonalInformation> mailList = studentDao.getMailList();
+        List<StudentPersonalInformation> mailList = studentDao.getMailList(name,grade);
 
         if (mailList.size() != 0 && mailList != null){
             page.setTotalCount(mailList.size());
@@ -82,12 +82,12 @@ public class StudentService {
 
     }
 
-    public Page<StudentPersonalInformation> getMailListPage(int currentPage){
+    public Page<StudentPersonalInformation> getMailListPage(int currentPage,String name,String grade){
 
         Page<StudentPersonalInformation> page = new Page<>();
         page.setCurrentPage(currentPage);
 
-        List<StudentPersonalInformation> mailListPage = studentDao.getMailListPage(page);
+        List<StudentPersonalInformation> mailListPage = studentDao.getMailListPage(page,name,grade);
         page.setTotalCount(mailListPage.size());
         page.setTotalPage(mailListPage.size() % page.getPageSize() == 0 ? mailListPage.size() / page.getPageSize() : mailListPage.size() % page.getPageSize() + 1);
 
