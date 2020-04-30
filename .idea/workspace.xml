@@ -11,17 +11,16 @@
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/student/mailList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/student/mailList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/views/student/mailList.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/views/student/mailList.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentManagementSystem/student/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentManagementSystem/student/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentManagementSystem/student/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentManagementSystem/student/service/StudentService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/studentIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/studentIndex.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/StudentManagementSystem/web/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentManagementSystem/web/controller/StudentController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/graduationPro.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/student/dao/StudentDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/student/dao/StudentDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/student/service/StudentService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/student/service/StudentService.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/web/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/web/controller/StudentController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/graduationPro/static/css/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/static/css/pagination.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/graduationPro/static/js/student/mailList.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/static/js/student/mailList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/views/student/mailList.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/views/student/mailList.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/graduationPro/static/js/student/studentIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/static/js/student/studentIndex.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/graduationPro/studentIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/studentIndex.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -35,41 +34,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="301" column="77" lean-forward="true" selection-start-line="301" selection-start-column="77" selection-end-line="301" selection-end-column="77" />
+            <state relative-caret-position="420">
+              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/mailList.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1288">
-              <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="84" column="44" selection-start-line="84" selection-start-column="44" selection-end-line="84" selection-end-column="44" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dto/StudentPersonalInformation.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="376">
-              <caret line="33" column="24" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -77,8 +46,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="121" column="88" selection-start-line="121" selection-start-column="88" selection-end-line="121" selection-end-column="88" />
+            <state relative-caret-position="417">
+              <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -87,10 +56,58 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/student/mailList.html">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
+            <state relative-caret-position="417">
+              <caret line="100" column="60" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dao/LoginDao.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="112">
+              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="89" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/StudentLogin.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="17" column="41" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="235">
+              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/personalInformation.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="399">
+              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="43" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/studentIndex.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="389">
+              <caret line="56" column="47" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -116,6 +133,7 @@
       <find>out</find>
       <find>headfont</find>
       <find>mailList_head_nikename_value</find>
+      <find>input</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -135,7 +153,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/webapp/views/1.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/TestController.java" />
         <option value="$PROJECT_DIR$/src/main/resources/db.properties" />
@@ -176,16 +193,17 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/student/scoreQuery.html" />
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/util/PDFUtil.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/student/scoreQuery.js" />
-        <option value="$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/studentIndex.css" />
-        <option value="$PROJECT_DIR$/src/main/webapp/studentIndex.html" />
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/vo/Page.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/css/mailList.css" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/student/mailList.html" />
-        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/student/mailList.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/css/pagination.css" />
+        <option value="$PROJECT_DIR$/src/main/webapp/studentIndex.html" />
+        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js" />
       </list>
     </option>
   </component>
@@ -215,8 +233,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="546" />
+  <component name="ProjectFrameBounds" extendedState="7">
+    <option name="x" value="545" />
     <option name="y" value="10" />
     <option name="width" value="1270" />
     <option name="height" value="1040" />
@@ -228,7 +246,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -269,7 +286,46 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="login" type="462c0819:PsiDirectoryNode" />
+              <item name="dto" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="dao" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
@@ -288,68 +344,15 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="vo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
-              <item name="web" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="file" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
-              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
@@ -357,7 +360,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
@@ -365,7 +367,25 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="static" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -373,13 +393,14 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588057392381" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588163744733" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -592,11 +613,13 @@
       <workItem from="1587874135276" duration="29184000" />
       <workItem from="1587925819576" duration="16088000" />
       <workItem from="1588057543487" duration="7831000" />
+      <workItem from="1588157280982" duration="7043000" />
+      <workItem from="1588216440827" duration="2228000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="221695000" />
+    <option name="totallyTimeSpent" value="230966000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -609,8 +632,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.23123324" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22319035" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.22252011" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -689,13 +713,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="学生通讯录分页完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/service/LoginService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-156">
-          <caret line="2" column="50" selection-start-line="2" selection-start-column="50" selection-end-line="2" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/login.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="408">
@@ -704,13 +721,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dtp.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/StudentLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="21" column="28" lean-forward="true" selection-start-line="21" selection-start-column="28" selection-end-line="21" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -722,13 +732,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="230">
           <caret line="9" column="37" lean-forward="true" selection-start-line="9" selection-start-column="37" selection-end-line="9" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dao/LoginDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="89" />
         </state>
       </provider>
     </entry>
@@ -748,13 +751,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="47" column="26" lean-forward="true" selection-start-line="47" selection-start-column="26" selection-end-line="47" selection-end-column="26" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/image/default.jpg">
       <provider selected="true" editor-type-id="images" />
@@ -828,9 +824,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="24" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -852,9 +845,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -862,27 +852,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="53" column="53" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="280">
-          <caret line="49" column="26" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="560">
-          <caret line="32" selection-start-line="32" selection-end-line="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/studentIndex.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-84">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -910,34 +879,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/personalInformation.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2084">
-          <caret line="92" column="8" selection-start-line="92" selection-start-column="8" selection-end-line="92" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/pagination.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-840" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/common.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4032" />
-      </provider>
-    </entry>
     <entry file="jar://E:/maven_repo/org/springframework/data/spring-data-mongodb/1.9.0.RELEASE/spring-data-mongodb-1.9.0.RELEASE.jar!/org/springframework/data/mongodb/core/MongoTemplate.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="338">
           <caret line="437" column="23" selection-start-line="437" selection-start-column="23" selection-end-line="437" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/studentIndex.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-352">
-          <caret line="16" column="60" lean-forward="true" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
         </state>
       </provider>
     </entry>
@@ -979,34 +924,90 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/student/mailList.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="39" selection-start-line="12" selection-start-column="39" selection-end-line="12" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dto/StudentPersonalInformation.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="376">
+        <state relative-caret-position="700">
           <caret line="33" column="24" selection-start-line="33" selection-start-column="19" selection-end-line="33" selection-end-column="24" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="121" column="88" selection-start-line="121" selection-start-column="88" selection-end-line="121" selection-end-column="88" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="280">
+          <caret line="49" column="26" selection-start-line="49" selection-start-column="22" selection-end-line="49" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/pagination.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="529">
+          <caret line="66" column="20" lean-forward="true" selection-start-line="66" selection-start-column="20" selection-end-line="66" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/mailList.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="28">
+          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/student/mailList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="7" column="46" selection-start-line="7" selection-start-column="46" selection-end-line="7" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/common.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/dispatcher-servlet.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="5" column="132" lean-forward="true" selection-start-line="5" selection-start-column="132" selection-end-line="5" selection-end-column="242" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-196">
+          <caret line="5" column="131" lean-forward="true" selection-start-line="5" selection-start-column="71" selection-end-line="5" selection-end-column="131" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/studentIndex.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="196">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="1" selection-end-line="21" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dao/LoginDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="89" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/StudentLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/personalInformation.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="43" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="301" column="77" lean-forward="true" selection-start-line="301" selection-start-column="77" selection-end-line="301" selection-end-column="77" />
+        <state relative-caret-position="420">
+          <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1015,18 +1016,35 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="84" column="44" selection-start-line="84" selection-start-column="44" selection-end-line="84" selection-end-column="44" />
+        <state relative-caret-position="417">
+          <caret line="100" column="60" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/mailList.js">
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1288">
-          <caret line="33" column="5" selection-start-line="33" selection-start-column="5" selection-end-line="33" selection-end-column="5" />
+        <state relative-caret-position="417">
+          <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/studentIndex.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="389">
+          <caret line="56" column="47" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="235">
+          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
         </state>
       </provider>
     </entry>

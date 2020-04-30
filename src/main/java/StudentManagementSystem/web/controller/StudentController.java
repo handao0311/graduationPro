@@ -28,6 +28,24 @@ public class StudentController {
     @Resource
     private StudentService studentService;
 
+
+    @PostMapping("password")
+    public ResultVo changePassword(@RequestParam(value = "username") String username, @RequestParam(value = "newPassword") String newPassword){
+
+        ResultVo resultVo = new ResultVo();
+
+        if (studentService.changePassword(username,newPassword)){
+
+            resultVo.setStatus(1);
+
+        }else {
+            resultVo.setStatus(0);
+            resultVo.setMessage("修改密码失败");
+        }
+        return resultVo;
+    }
+
+
     /**
      * 加载学生个人信息
      *

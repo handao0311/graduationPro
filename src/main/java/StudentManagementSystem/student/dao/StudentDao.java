@@ -98,14 +98,6 @@ public class StudentDao {
 
         List<StudentPersonalInformation> studentPersonalInformationTable = mongoTemplate.find(query,StudentPersonalInformation.class,"studentPersonalInformationTable");
 
-//        List<StudentPersonalInformation> studentPersonalInformationTable = mongoTemplate.findAll(StudentPersonalInformation.class, "studentPersonalInformationTable");
-
-        for (StudentPersonalInformation studentPersonalInformation : studentPersonalInformationTable){
-            System.out.println(studentPersonalInformation);
-
-        }
-
-        System.out.println("111111111111111111111111111111111111111111111111111111111111");
         return studentPersonalInformationTable;
     }
 
@@ -129,6 +121,21 @@ public class StudentDao {
 
         return studentPersonalInformationTable;
     }
+
+    public boolean changePassword(String username,String password){
+
+        Query query = Query.query(Criteria.where("username").is(username));
+        Update update = Update.update("password",password);
+        int result = mongoTemplate.updateFirst(query,update,"studentLoginTable").getN();
+
+        if (result == 1){
+            return true;
+        }else {
+            return false;
+        }
+    }
+
+
 
 
 

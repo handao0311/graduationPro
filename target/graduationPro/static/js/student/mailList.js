@@ -33,9 +33,6 @@ function load_studentMailList() {
         mailList_head_class_value = "grade";
     }
 
-
-    alert(mailList_head_name_value + "   " + mailList_head_class_value);
-
     $.ajax({
 
         url : "/graduationPro/api/mailList/",

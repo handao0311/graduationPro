@@ -96,4 +96,10 @@ public class StudentService {
         return page;
     }
 
+    public boolean changePassword(String username,String password){
+
+        return studentDao.changePassword(username,password);
+    }
+
+
 }

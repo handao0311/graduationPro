@@ -6,7 +6,6 @@ $(function () {
     //加载学生的个人信息
     load_pf();
 
-
     //加载学生的成绩
     load_sq();
 
@@ -16,8 +15,55 @@ $(function () {
     //加载同学通讯录
     load_ml();
 
+    //修改登陆密码
+    $("#modal_save_changePassword").click(function () {
+
+        change_password();
+    });
+
+
 
 });
+
+
+function change_password() {
+
+    var newPassword = $("#newPassword").val();
+
+    var confirmPassword = $("#confirmPassword").val();
+
+    if (newPassword != confirmPassword){
+
+        alert("两次密码输入不一致");
+
+        return;
+    }
+
+    $.ajax({
+
+        url : "/graduationPro/api/password",
+        type : "post",
+        data :{
+            "username" : getCookie("username"),
+            "newPassword" : newPassword
+        },
+        dataType : "json",
+        success : function (result) {
+            if(result.status == 1){
+
+                $('#changePasswordModal').modal('hide');
+
+            }else {
+                alert(result.message);
+            }
+        },
+        error : function () {
+            alert("请求失败");
+        }
+    });
+
+}
+
 
 function load_ml() {
 
