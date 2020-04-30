@@ -21,9 +21,36 @@ $(function () {
         change_password();
     });
 
+    //登出逻辑
+    $("#header_loginout").click(function () {
+
+        loginout();
+    });
+
 
 
 });
+
+function loginout() {
+
+    $.ajax({
+
+       url : "/graduationPro/api/loginout",
+       type: "post",
+       dataType: "json",
+       success : function (result) {
+           if (result.status == 1){
+               window.location.href = "./login.html";
+           }
+       },
+        error : function () {
+            alert("请求失败");
+        }
+    });
+
+
+
+}
 
 
 function change_password() {

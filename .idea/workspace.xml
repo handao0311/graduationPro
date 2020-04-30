@@ -7,20 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="700038c6-f242-4b54-9c02-3b51359f7f4e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/static/css/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/css/pagination.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/LoginController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/LoginController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/studentIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/studentIndex.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/StudentManagementSystem/web/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/StudentManagementSystem/web/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro.war" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/web/controller/StudentController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/WEB-INF/classes/StudentManagementSystem/web/controller/StudentController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/static/css/pagination.css" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/static/css/pagination.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/static/js/student/mailList.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/static/js/student/mailList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/static/js/student/studentIndex.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/static/js/student/studentIndex.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/graduationPro/studentIndex.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/graduationPro/studentIndex.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -32,82 +20,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="42" column="39" selection-start-line="42" selection-start-column="39" selection-end-line="42" selection-end-column="39" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="134" column="9" selection-start-line="134" selection-start-column="9" selection-end-line="134" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="417">
-              <caret line="100" column="60" selection-start-line="100" selection-start-column="60" selection-end-line="100" selection-end-column="60" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dao/LoginDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="28" selection-end-column="89" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/StudentLogin.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="17" column="41" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="41" />
+            <state relative-caret-position="336">
+              <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js">
+        <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/LoginController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="235">
-              <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/personalInformation.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="399">
-              <caret line="102" column="16" selection-start-line="102" selection-start-column="16" selection-end-line="102" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/studentIndex.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="56" column="47" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="47" />
+            <state relative-caret-position="92">
+              <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -164,8 +89,6 @@
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/TeacherLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/ManagerLogin.java" />
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dao/LoginDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/service/LoginService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/passwordErrorModal.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/login.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/studentIndex.html" />
@@ -203,6 +126,8 @@
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dao/StudentDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/service/StudentService.java" />
         <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/StudentController.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/service/LoginService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/LoginController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js" />
       </list>
     </option>
@@ -306,7 +231,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
               <item name="login" type="462c0819:PsiDirectoryNode" />
-              <item name="dto" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
@@ -352,6 +277,25 @@
               <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="StudentManagementSystem" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -388,6 +332,23 @@
               <item name="js" type="462c0819:PsiDirectoryNode" />
               <item name="student" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="graduationPro" type="b2602c69:ProjectViewProjectNode" />
+              <item name="graduationPro" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="webapp" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="student" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -400,7 +361,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588163744733" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1588248059073" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -614,12 +575,12 @@
       <workItem from="1587925819576" duration="16088000" />
       <workItem from="1588057543487" duration="7831000" />
       <workItem from="1588157280982" duration="7043000" />
-      <workItem from="1588216440827" duration="2228000" />
+      <workItem from="1588216440827" duration="4972000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="230966000" />
+    <option name="totallyTimeSpent" value="233710000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -632,9 +593,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22319035" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49858356" visible="true" weight="0.22319035" />
       <window_info id="Structure" order="1" sideWeight="0.50141644" side_tool="true" weight="0.22252011" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -644,7 +604,7 @@
       <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.58498585" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49932975" weight="0.035460994" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49932975" visible="true" weight="0.53758866" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -713,14 +673,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="学生通讯录分页完成" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/css/login.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="44" column="2" selection-start-line="44" selection-start-column="2" selection-end-line="45" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/student/dtp.java" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="224">
@@ -824,6 +776,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="404">
           <caret line="29" column="24" selection-start-line="29" selection-start-column="19" selection-end-line="29" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -845,6 +800,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
           <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -852,13 +810,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="70">
           <caret line="53" column="53" selection-start-line="53" selection-start-column="43" selection-end-line="53" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/LoginController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="224">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
         </state>
       </provider>
     </entry>
@@ -904,13 +855,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="164">
           <caret line="72" selection-start-line="72" selection-end-line="72" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
@@ -990,13 +934,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/StudentLogin.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="17" column="41" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/personalInformation.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="399">
@@ -1034,17 +971,52 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/dto/StudentLogin.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="17" column="41" selection-start-line="17" selection-start-column="24" selection-end-line="17" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/login/service/LoginService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/studentIndex.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="389">
-          <caret line="56" column="47" selection-start-line="56" selection-start-column="28" selection-end-line="56" selection-end-column="47" />
+          <caret line="32" column="76" selection-start-line="32" selection-start-column="61" selection-end-line="32" selection-end-column="76" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-112">
+          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://E:/maven_repo/javax/servlet/javax.servlet-api/3.1.0/javax.servlet-api-3.1.0.jar!/javax/servlet/http/HttpSession.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="36" column="9" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/static/js/student/studentIndex.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="52" lean-forward="true" selection-start-line="52" selection-end-line="52" />
+        <state relative-caret-position="336">
+          <caret line="42" column="53" selection-start-line="42" selection-start-column="53" selection-end-line="42" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/StudentManagementSystem/web/controller/LoginController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="92">
+          <caret line="44" column="24" selection-start-line="44" selection-start-column="24" selection-end-line="44" selection-end-column="24" />
         </state>
       </provider>
     </entry>
