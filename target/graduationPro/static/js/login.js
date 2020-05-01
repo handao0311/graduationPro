@@ -50,7 +50,7 @@ function login() {
                         addCookie("loginName",loginName,5);
                     }
                     //alert("即将进入教师主页");
-                    window.location.href = "./views/teacherIndex.html";
+                    window.location.href = "./teacherIndex.html";
                 }else if (role == "manager"){
 
                     if (remember == "remember"){

@@ -39,7 +39,6 @@ public class LoginController {
         ResultVo resultVo = new ResultVo();
         System.out.println(httpSession.getAttribute("username"));
         httpSession.setAttribute("username",null);
-
         resultVo.setStatus(1);
 
         return resultVo;

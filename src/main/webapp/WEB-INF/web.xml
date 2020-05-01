@@ -34,4 +34,28 @@
     <listener>
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>
     </listener>
+    
+    <filter>
+        <description>filter</description>
+        <filter-name>loginFilter</filter-name>
+        <filter-class>StudentManagementSystem.login.filter.LoginFilter</filter-class>
+    
+        <init-param>
+            <param-name>passURL</param-name>
+            <param-value>login.html,api/login,static/js,static/css,static/image,images
+            </param-value>
+        </init-param>
+        
+        <init-param>
+            <param-name>redirectURL</param-name>
+            <param-value>login.html</param-value>
+        </init-param>
+    
+    </filter>
+    
+    <filter-mapping>
+        <filter-name>loginFilter</filter-name>
+        <url-pattern>/*</url-pattern>
+    </filter-mapping>
+    
 </web-app>

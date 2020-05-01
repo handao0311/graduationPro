@@ -45,3 +45,8 @@ body {
   font-size: 20px;
   color: #fff;
 }
+
+#image_header{
+    width: 20px;
+    height: 20px;
+}
