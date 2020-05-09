@@ -3,15 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <title>教师主页</title>
+
+    <link rel="stylesheet" href="static/css/bootstrap.min.css">
+    <script type="text/javascript" src="static/js/common/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="static/js/common/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="static/js/cookie.js"></script>
+    <script type="text/javascript" src="static/js/common/jquery.pagination.js"></script>
+
+    <link rel="stylesheet" href="static/css/teacher/teacherIndex.css">
+    <script type="text/javascript" src="static/js/teacher/teacherIndex.js"></script>
 </head>
 <body>
     <div id="teacher_header">
 
+        <span id="teacher_header_span1">教室管理系统</span>
+        <span id="teacher_header_span2">欢迎登陆 : 肖明霞</span>
+        <button type="button" id="teacher_header_changePassword">修改密码</button>
     </div>
 
     <div id="teacher_nav_body">
-
-
+        <ul id="teacher_nav_body_ul" class="nav nav-pills">
+            <li role="presentation" id="le"><a href="#">录入考试成绩</a></li>
+            <li role="presentation"><a href="#">查看教学评估</a></li>
+            <li role="presentation"><a href="#">查看课程安排</a></li>
+        </ul>
     </div>
 
     <div id="teacher_body">

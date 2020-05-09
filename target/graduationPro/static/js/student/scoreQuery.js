@@ -98,6 +98,14 @@ function query_score() {
                 table_data = data;
                 $(data).each(function (index,obj) {
 
+                    if (obj.credit == null){
+                        obj.credit = "敬请期待";
+                    }
+
+                    if (obj.score == null){
+                        obj.score = "敬请期待";
+                    }
+
                     var row = "<tr>" +
                                     "<td>"+ obj.name +"</td>" +
                                     "<td>"+ obj.year +"</td>" +

@@ -19,4 +19,5 @@ public class StudentTeachingEvalList implements Serializable {
 
     private List<StudentTeachingEval> studentTeachingEvals;
 
+
 }

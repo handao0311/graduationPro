@@ -42,7 +42,7 @@
     
         <init-param>
             <param-name>passURL</param-name>
-            <param-value>login.html,api/login,static/js,static/css,static/image,images
+            <param-value>login.html,api/login,static/js,static/css,static/image,images,static/css/teacher
             </param-value>
         </init-param>
         

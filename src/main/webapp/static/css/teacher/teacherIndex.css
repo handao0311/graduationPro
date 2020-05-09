@@ -1,0 +1,67 @@
+#teacher_header{
+
+    position: relative;
+    height: 80px;
+    width: auto;
+    background-color: #2e6da4;
+}
+
+#teacher_header_span1{
+
+    position: absolute;
+    left: 30px;
+    top: 20px;
+
+    font-size: 30px;
+    font-weight: 900;
+    color: #337ab7;
+}
+
+#teacher_header_span2{
+
+    position: absolute;
+    top: 20px;
+    right: 350px;
+
+    font-size: 24px;
+    font-style: italic;
+    color: #c0a16b;
+}
+
+#teacher_header_changePassword{
+
+    position: absolute;
+    top: 20px;
+    right: 100px;
+    display: block;
+    font-size: 24px;
+    background-color: #2e6da4;
+    color: red;
+}
+
+#teacher_nav_body{
+    height: 50px;
+    width: auto;
+
+}
+
+#teacher_body{
+
+    position: relative;
+}
+
+#teacher_nav_body_ul{
+    width: auto;
+}
+
+#teacher_enterscore_button{
+
+    position: absolute;
+    right: 100px;
+}
+
+#courseTitle{
+    font-size: 24px;
+    font-style: italic;
+    color: darkseagreen;
+}

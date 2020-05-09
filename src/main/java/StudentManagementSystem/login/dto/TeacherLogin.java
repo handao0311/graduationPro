@@ -23,4 +23,6 @@ public class TeacherLogin implements Serializable {
 
     @Field
     private String password;
+
+    private String role;
 }
