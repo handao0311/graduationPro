@@ -2,6 +2,7 @@ package StudentManagementSystem.teacher.service;
 
 import StudentManagementSystem.student.dto.StudentPersonalInformation;
 import StudentManagementSystem.teacher.dao.TeacherDao;
+import StudentManagementSystem.teacher.meta.TeachingAssessment;
 import StudentManagementSystem.teacher.meta.UploadStudentScore;
 import org.springframework.stereotype.Service;
 
@@ -30,7 +31,13 @@ public class TeacherService {
 
     }
 
+    public TeachingAssessment seeTeachingEval(String name){
 
+
+        return teacherDao.seeTeachingEval(name);
+
+
+    }
 
 
 

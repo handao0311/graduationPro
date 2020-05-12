@@ -1,6 +1,7 @@
 package StudentManagementSystem.web.controller;
 
 import StudentManagementSystem.student.dto.StudentPersonalInformation;
+import StudentManagementSystem.teacher.meta.TeachingAssessment;
 import StudentManagementSystem.teacher.meta.UploadStudentScore;
 import StudentManagementSystem.teacher.service.TeacherService;
 import StudentManagementSystem.vo.ResultVo;
@@ -62,6 +63,32 @@ public class teacherController {
         }else {
             resultVo.setStatus(0);
             resultVo.setMessage("修改失败");
+        }
+
+        return resultVo;
+    }
+
+    /**
+     *
+     * 查看教学评估
+     *
+     * @param name
+     * @return
+     */
+    @GetMapping("teachingEval")
+    public ResultVo seeTeachingEval(@RequestParam(value = "name") String name){
+
+        ResultVo resultVo = new ResultVo();
+
+        TeachingAssessment teachingAssessment = teacherService.seeTeachingEval(name);
+
+        if (teachingAssessment != null){
+            resultVo.setStatus(1);
+            resultVo.setData(teachingAssessment);
+
+        }else {
+            resultVo.setStatus(0);
+            resultVo.setMessage("暂无教学评估");
         }
 
         return resultVo;

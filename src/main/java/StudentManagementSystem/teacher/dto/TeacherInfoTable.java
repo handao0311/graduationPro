@@ -21,4 +21,6 @@ public class TeacherInfoTable implements Serializable {
 
     public String courseID;
 
+    public String courseName;
+
 }
